@@ -26,7 +26,7 @@ var removeElementFromBeginningOfArray = (array, element) =>{
 }
 
 var destructivelyRemoveElementFromBeginningOfArray = (array, element) =>{
-  
+
 }
 
 var destructivelyRemoveElementFromEndOfArray = (array, element) =>{
