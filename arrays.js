@@ -21,12 +21,13 @@ var destructivelyAddElementToEndOfArray = (array, element) => {
 }
 
 var removeElementFromBeginningOfArray = (array, element) =>{
-  array.shift(element)
+  array.slice(element)
   return array
 }
 
 var destructivelyRemoveElementFromBeginningOfArray = (array, element) =>{
-
+  array.shift(element)
+  return array
 }
 
 var destructivelyRemoveElementFromEndOfArray = (array, element) =>{
