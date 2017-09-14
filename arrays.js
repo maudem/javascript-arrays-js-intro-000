@@ -20,6 +20,11 @@ var destructivelyRemoveElementFromEndOfArray = (array, element) =>{
   return array
 }
 
+var removeElementFromBeginningOfArray = (array, element) =>{
+  array.shift(element)
+  return array
+}
+
 var destructivelyAddElementToEndOfArray = (array, element) => {
  array.push(element)
   return array
