@@ -21,7 +21,7 @@ var destructivelyAddElementToEndOfArray = (array, element) => {
 }
 
 var removeElementFromBeginningOfArray = (array, element) =>{
-  array = array.slice(1)
+  array = array.splice(1)
   return array
 }
 
