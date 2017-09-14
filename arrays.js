@@ -15,6 +15,11 @@ var addElementToEndOfArray = (array, element) => {
   return array
 }
 
+var destructivelyRemoveElementFromEndOfArray = (array, element) =>{
+  array.pop(element)
+  return array
+}
+
 var destructivelyAddElementToEndOfArray = (array, element) => {
  array.push(element)
   return array
