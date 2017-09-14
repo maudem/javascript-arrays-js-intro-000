@@ -21,7 +21,7 @@ var destructivelyAddElementToEndOfArray = (array, element) => {
 }
 
 var removeElementFromBeginningOfArray = (array, element) =>{
-  array = array.splice(1)
+  array.shift(element)
   return array
 }
 
@@ -30,7 +30,7 @@ var destructivelyRemoveElementFromEndOfArray = (array, element) =>{
   return array
 }
 
-var
+var 
 
 var accessElementInArray = (array, index )=> {
     return array[index]
