@@ -30,8 +30,6 @@ var destructivelyRemoveElementFromEndOfArray = (array, element) =>{
   return array
 }
 
-var
-
 var accessElementInArray = (array, index )=> {
     return array[index]
 }
