@@ -30,6 +30,11 @@ var destructivelyRemoveElementFromBeginningOfArray = (array, element) =>{
   return array
 }
 
+var removeElementFromEndOfArray = (array, element) =>{
+  array.splice(element)
+  return array
+}
+
 var destructivelyRemoveElementFromEndOfArray = (array, element) =>{
   array.pop(element)
   return array
