@@ -21,14 +21,15 @@ var destructivelyAddElementToEndOfArray = (array, element) => {
 }
 
 var removeElementFromBeginningOfArray = (array, element) =>{
-  array.shift(element)
-  return array
+  return array.slice(1)
 }
 
 var destructivelyRemoveElementFromEndOfArray = (array, element) =>{
   array.pop(element)
   return array
 }
+
+var 
 
 var accessElementInArray = (array, index )=> {
     return array[index]
